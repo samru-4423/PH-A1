@@ -1,19 +1,15 @@
 body{
     background-color: white;
-    /* padding: 1%; */
 }
 
 .head{
-    /* background-color: blue; */
     height: 50px;
     width: 89.95%;
-    /* display: flex; */
     padding: 12px 70px 12px 100px;
     margin: -10px 10px 0px -10px;
 }
 
 .head-content{
-    /* background-color: antiquewhite; */
     height: 50px;
     width: 97%;
     display: flex;
@@ -27,7 +23,6 @@ body{
 }
 
 .mid{
-    /* background-color: aliceblue; */
     height: 20px;
     width: 350px;
     display: flex;
@@ -45,20 +40,24 @@ body{
     border-bottom: 2px solid green;
 }
 
-.head-content button{
-    padding: 2px;
+.btn a{
+    padding: 7px 12px 7px 12px;
     height: 35px;
-    width: 130px;
+    width: 150px;
     background-color: rgba(70, 145, 101, 1);
     outline: none;
     border: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 5px;
-}
-
-.head-content button a{
+    font-size: 0.95em;
     color: white;
     text-decoration: none;
+}
+
+.btn a:hover{
+    color: black;
+    background: transparent;
+    outline: 2px solid black;
 }
 
 /* Section Part */
@@ -78,7 +77,6 @@ body{
 .section-head{
     height: 650px;
     width: 100%;
-    /* background-image: url("./assets/hero-bg.png"); */
 }
 
 .blank{
@@ -87,7 +85,6 @@ body{
 }
 
 .sh-content{
-    /* border: 2px solid yellow; */
     margin-left: 120px;
     margin-right: 120px;
     padding-left: 50px;
@@ -115,7 +112,6 @@ body{
     height: 90px;
     width: 800px;
     color: white;
-    /* background-color: green; */
     position: absolute;
     margin: 3% 0 0 15%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -125,7 +121,6 @@ body{
 .sh-content3 h1{
     height: 90px;
     width: 800px;
-    /* background-color: green; */
     position: absolute;
     margin: 8% 0 0 15%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -136,7 +131,6 @@ body{
 .sh-content4 p{
     height: 50px;
     width: 800px;
-    /* background-color: green; */
     position: absolute;
     margin: 14% 0 0 15%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -150,11 +144,9 @@ body{
     display: flex;
     position: absolute;
     margin: 18% 0 0 15%;
-    /* border: 2px solid white; */
 }
 
 .anchor1 a{
-    /* border: 2px solid ; */
     height: 30px;
     width: 200px;
     padding: 1.5% 2% 1.5% 2%;
@@ -181,7 +173,6 @@ body{
 }
 
 .anchor2 a{
-    /* border: 2px solid yellow; */
     height: 37px;
     width: 160px;
     padding: 1.5% 2% 1.5% 7%;
@@ -207,14 +198,14 @@ body{
 }
 
 .section-body{
-    margin-top: -50px;
-    border: 2px solid black;
+    margin-top: -80px;
     background-color: rgb(237, 237, 237);
-    height: 450px;
+    height: 385px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .section-body h1{
+    padding-top: 40px;
     font-size: 2.7em;
 }
 
@@ -223,14 +214,69 @@ body{
     font-size: 0.9em;
 }
 
+.sb-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 125px;
+    display: flex;
+    gap: 15px;
+}
 .sb-content1{
-    border: 2px solid yellow;
-    background-color: blue;
-    height: 250px;
-    width: 250px;
-    margin-left: 100px;
+    background-color: white; 
+    height: 210px;
+    width: 300px;
+    padding-top: 50px;
+    border-radius: 10px;
+    /* box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.1); */
 }
 .sbcimg1 img{
-    height: 10px;
-    width: 10px;
+    background-color: red;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    padding: 3%;
+}
+.sb-content h3{
+    font-size: 1.5em;
+}
+
+.section-body2{
+    height: 700px;
+    display: flex;
+    gap: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5%;
+}
+
+.sb2img{
+    height: 100px;
+    width: 590px;
+    margin-left: 125px;
+}
+
+.sb2info{
+    padding-top: 4%;
+    text-align: left;
+}
+
+.sb2info1 h5{
+    color: rgba(48, 184, 104, 1);
+    font-size: 1em;
+}
+
+.sb2info2 h1{
+    color: black;
+    font-size: 3em;
+    margin-top: -20px;
+}
+.sb2info3 p{
+    color: grey;
+    font-size: 1em;
+    margin-top: -18px;
+    margin-bottom: 30px;
+}
+
+.sb2info4 p img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
 }
